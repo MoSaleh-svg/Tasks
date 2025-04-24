@@ -1,0 +1,63 @@
+.container {
+    width: 1000px;
+    margin: 20px auto;
+    background: #f5f5f5;
+    overflow: hidden;
+  }
+
+  .box {
+    background-color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px 0;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+  }
+
+  .full {
+    width: 100%;
+  }
+
+  .one-third, .half, .one-fourth {
+    float: left;
+    margin-right: 15px;
+  }
+
+  .one-third {
+    width: 31.33%; 
+  }
+
+  .half {
+    width: 49.25%;
+  }
+
+  .one-fourth {
+    width: 23%;
+  }
+
+  .no-margin {
+    margin-right: 0;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  /* -------------------------------------------- */
+
+  .normal, .one, .two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 20px;
+    background-color:gray; 
+    color: black;
+  }
+
+  .one{
+    background-color:rgba(128, 128, 128, 0.103); 
+  }
+  .two{
+    opacity: 0.1;
+  }

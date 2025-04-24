@@ -1,0 +1,25 @@
+.parent, .child, .title{
+    color: red;
+}
+.parent, .title{
+    color: blue;
+}
+.title, .paragraph{
+    color: green;
+}
+.title{
+    color: green;
+}
+
+/* ---------------------------------- */
+
+.one, .two, .three{
+    color: #eee;
+    font-size: 16px;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+    max-width: 400px;
+    background-color: red;
+}

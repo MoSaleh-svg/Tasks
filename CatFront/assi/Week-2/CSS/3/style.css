@@ -1,0 +1,60 @@
+.div1{
+    background-color: rgb(175, 175, 175);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    outline: 5px solid black;
+    border: 5px solid red;
+    display: inline-block;
+}
+.div2{
+    background-color: rgb(175, 175, 175);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    outline: 5px solid black;
+    border: 5px solid;
+    border-color: blue green;
+    display: inline-block;
+}
+.div3{
+    background-color: rgb(175, 175, 175);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    outline: 5px solid black;
+    border: 5px dotted;
+    border-color: red green blue yellow;
+    display: inline-block;
+}
+
+/* ------------------------------------------ */
+
+.element_element-1{
+    background-color: rgb(175, 175, 175);
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    border-left: 20px solid purple;
+    display: block;
+    text-align: center;
+}
+.element_element-2{
+    background-color: rgb(175, 175, 175);
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    border-left: 20px solid blue;
+    display: block;
+    text-align: center;
+    visibility: hidden;
+}
+.element_element-3{
+    background-color: rgb(175, 175, 175);
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    border-left: 20px solid green;
+    display: block;
+    text-align: center;
+}
