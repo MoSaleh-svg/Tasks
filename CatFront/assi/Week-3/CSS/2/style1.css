@@ -1,0 +1,45 @@
+
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.page{
+    height: 100vh;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: 
+    "header header header header header" 
+    "cont cont cont cont side"
+    "foot foot foot foot foot";
+}
+
+header{
+    grid-area: header;
+    background-color: aqua;
+    color: #ffffff;
+}
+
+section{
+    grid-area: cont ;
+    background-color: orangered ;
+    color: white;
+}
+
+aside{
+    grid-area: side;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+footer{
+    grid-area: foot;
+    background-color: rgb(0, 124, 128);
+    color: white;
+}

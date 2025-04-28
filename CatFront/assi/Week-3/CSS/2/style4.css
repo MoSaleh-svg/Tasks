@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.parent{
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #eee;
+    align-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 80px 80px ;
+    gap: 10px 10px;
+}
+
+.parent div{
+    background-color: rgb(243, 43, 87);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.one{
+    grid-column:  span 3;
+}
+
+.two{
+    grid-column: span 3;
+}
+
+
+.seven{
+    grid-column: span 3;
+}
+
+.eight{
+    grid-column: span 3;
+}
