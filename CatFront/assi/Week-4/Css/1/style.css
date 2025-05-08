@@ -1,0 +1,29 @@
+.shape{
+    background-color: orangered;
+    width: 400px;
+    height: 200px;
+    display: grid;
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    justify-content: center;
+    align-content: center;
+    /* transform: translateX() translateY() scaleX() scaleY() skewX() skewY() ; */
+    transform: matrix(1, 0, 0.2, 1, 100, 200);
+}
+
+.shape-2{
+    background-color: orangered;
+    width: 400px;
+    height: 200px;
+    display: grid;
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    justify-content: center;
+    align-content: center;
+    /* transform: translateX() translateY() scaleX() scaleY() skewX() skewY() ; */
+    transform: matrix(1, 0, -0.2, 1, 100, 0);
+}
+
+/* ---------------------------- */

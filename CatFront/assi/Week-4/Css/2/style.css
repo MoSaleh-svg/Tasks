@@ -1,0 +1,85 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    /* Animation Properties */
+    /* animation-name: change-color-turn;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-play-state: running; */
+}
+
+.parent .child1{
+    width: 100px;
+    height:100px;
+    background-color: #eee;
+    border: 8px solid rgb(180, 3, 3);
+    transition: transform 0.3s;
+    transform: rotate(1turn);
+    border-radius: 50%;
+    border-left-color: transparent;
+    animation: change-color-turn 3s linear 0s infinite reverse;
+    animation-play-state: running;
+}
+
+.parent .child2{
+    position: relative;
+    top: -105px;
+    left: 8px;
+    width: 81px;
+    height:81px;
+    background-color: #eee;
+    border: 8px solid rgb(142, 180, 3);
+    transition: transform 0.3s;
+    transform: rotate(1turn);
+    border-radius: 50%;
+    border-right-color: transparent;
+    animation: change-color-turn 3s linear 0s infinite reverse;
+    animation-play-state: running;
+}
+
+.parent .child3{
+    position: relative;
+    top: -192px;
+    left: 20px;
+    width: 60px;
+    height:60px;
+    background-color: #eee;
+    border: 8px solid rgb(3, 180, 156);
+    transition: transform 0.3s;
+    transform: rotate(1turn);
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: change-color-turn 3s linear 0s infinite reverse;
+    animation-play-state: running;
+}
+
+.child1:hover{
+    animation-play-state: paused;
+}
+.child2:hover{
+    animation-play-state: paused;
+}
+.child3:hover{
+    animation-play-state: paused;
+}
+
+@keyframes change-color-turn{
+    0% {
+        background-color: rgb(105, 105, 105);
+        transform: rotate(0turn);
+    }
+    100% {
+        background-color: rgb(224, 224, 224);
+        transform: rotate(1turn);
+    }
+}
